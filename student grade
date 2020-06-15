@@ -1,0 +1,31 @@
+//student grade
+#include<stdio.h>
+void main()
+{
+    int marks;
+    printf("enter the marks obtained by the student\n");// read the marks from the user
+    scanf("%d",&marks);
+    if(marks>=85)  //check the condition if true or false;
+    {
+        printf("the student secured grade 'A' \n");
+
+    }
+    else if(marks>=70)
+    {
+        printf("the student secured grade 'B'\n");
+    }
+   else if(marks>=55)
+   {
+       printf("the student secured grade 'c'\n");
+   }
+
+    else if(marks>=40)
+    {
+            printf("the student secured grade 'D'\n");
+
+    }
+    else if(marks<40)
+    {
+            printf("the student secured grade 'F'\n");
+    }
+}
